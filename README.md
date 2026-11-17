@@ -4,7 +4,10 @@ Shared, non-code files (setup guides, notes, .cmd scripts) for Vijay's mobile ap
 FinanceTracker, Baro Stay and future projects. No app source code lives here.
 
 ## Contents
-- `docs/GDRIVE_SETUP.md` - one-time Google Drive OAuth Client ID setup for Drive backup/sync.
+- `agents/code-improver.md` - generic Claude Code agent (readability / performance suggestions), usable in any project.
+- `scripts/organize-prompts.cmd` - sorts agent prompts into `barostay-prompts`, `financetracker-prompts` and this repo.
+
+Project-specific prompts live in their own repos: `barostay-prompts`, `financetracker-prompts`.
 
 ## Reuse in a project
 Option 1 - clone next to the project (simplest):
